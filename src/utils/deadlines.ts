@@ -3,8 +3,8 @@
 // - historische beleidswijzigingen (geldig_vanaf/geldig_tot: welke regelversie gold op de leverdatum)
 // - de aparte aanmeld- vs. verzenddeadline (zie aankopen-datamodel.md)
 
-import type { Regel, Retailer } from "@/types/retourbeleid";
-import type { Aankoop, NieuweAankoopInput } from "@/types/aankopen";
+import type { Regel, Retailer } from "../types/retourbeleid";
+import type { Aankoop, NieuweAankoopInput } from "../types/aankopen";
 
 export class GeenGeldigeRegelError extends Error {
   constructor(retailerId: string, land: string, datum: string) {

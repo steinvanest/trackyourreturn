@@ -3,12 +3,12 @@ import { FlatList, Pressable, StyleSheet, Text, View } from "react-native";
 import { useFocusEffect } from "@react-navigation/native";
 import type { NativeStackScreenProps } from "@react-navigation/native-stack";
 
-import type { RootStackParamList } from "@/navigation/types";
-import type { Aankoop } from "@/types/aankopen";
-import { haalAankopenOp, markeerVerlopenAankopen } from "@/db/database";
-import { relevanteDeadline, vandaagIso } from "@/utils/deadlines";
-import { vindRetailer } from "@/data/retailers";
-import { DeadlineBadge } from "@/components/DeadlineBadge";
+import type { RootStackParamList } from "../navigation/types";
+import type { Aankoop } from "../types/aankopen";
+import { haalAankopenOp, markeerVerlopenAankopen } from "../db/database";
+import { relevanteDeadline, vandaagIso } from "../utils/deadlines";
+import { vindRetailer } from "../data/retailers";
+import { DeadlineBadge } from "../components/DeadlineBadge";
 
 // Tot we echte gebruikersaccounts hebben, werkt de app met één vaste lokale gebruiker.
 const GEBRUIKER_ID = "lokale_gebruiker";

@@ -10,13 +10,13 @@ import {
 } from "react-native";
 import type { NativeStackScreenProps } from "@react-navigation/native-stack";
 
-import type { RootStackParamList } from "@/navigation/types";
-import type { Retailer } from "@/types/retourbeleid";
-import { PRODUCT_CATEGORIEEN, type ProductCategorie } from "@/types/aankopen";
-import { RetailerPicker } from "@/components/RetailerPicker";
-import { berekenDeadlines, GeenGeldigeRegelError, vandaagIso } from "@/utils/deadlines";
-import { voegAankoopToe } from "@/db/database";
-import { genereerId } from "@/utils/id";
+import type { RootStackParamList } from "../navigation/types";
+import type { Retailer } from "../types/retourbeleid";
+import { PRODUCT_CATEGORIEEN, type ProductCategorie } from "../types/aankopen";
+import { RetailerPicker } from "../components/RetailerPicker";
+import { berekenDeadlines, GeenGeldigeRegelError, vandaagIso } from "../utils/deadlines";
+import { voegAankoopToe } from "../db/database";
+import { genereerId } from "../utils/id";
 
 const GEBRUIKER_ID = "lokale_gebruiker";
 const ISO_DATUM_REGEX = /^\d{4}-\d{2}-\d{2}$/;

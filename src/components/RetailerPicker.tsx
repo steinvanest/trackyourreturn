@@ -2,8 +2,8 @@
 
 import { useMemo, useState } from "react";
 import { FlatList, Pressable, StyleSheet, Text, TextInput, View } from "react-native";
-import type { Retailer } from "@/types/retourbeleid";
-import { alleRetailers } from "@/data/retailers";
+import type { Retailer } from "../types/retourbeleid";
+import { alleRetailers } from "../data/retailers";
 
 interface Props {
   geselecteerd: Retailer | null;

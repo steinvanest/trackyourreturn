@@ -1,7 +1,7 @@
 // Kleurgecodeerde badge voor de retourdeadline: rood <3 dagen, oranje <7 dagen, groen daarna.
 
 import { StyleSheet, Text, View } from "react-native";
-import { bepaalUrgentie, dagenTotDeadline, type DeadlineUrgentie } from "@/utils/deadlines";
+import { bepaalUrgentie, dagenTotDeadline, type DeadlineUrgentie } from "../utils/deadlines";
 
 const KLEUREN: Record<DeadlineUrgentie, { achtergrond: string; tekst: string }> = {
   verlopen: { achtergrond: "#3f3f46", tekst: "#ffffff" },

@@ -2,8 +2,8 @@ import { useEffect, useState } from "react";
 import { ActivityIndicator, StyleSheet, View } from "react-native";
 import { StatusBar } from "expo-status-bar";
 
-import { RootNavigator } from "@/navigation/RootNavigator";
-import { initDatabase } from "@/db/database";
+import { RootNavigator } from "./src/navigation/RootNavigator";
+import { initDatabase } from "./src/db/database";
 
 export default function App() {
   const [klaar, setKlaar] = useState(false);

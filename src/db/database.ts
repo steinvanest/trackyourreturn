@@ -2,7 +2,7 @@
 // SQLite is een bestand op het toestel zelf — er komt geen server aan te pas.
 
 import * as SQLite from "expo-sqlite";
-import type { Aankoop, AankoopStatus } from "@/types/aankopen";
+import type { Aankoop, AankoopStatus } from "../types/aankopen";
 
 const DB_NAAM = "trackyourreturn.db";
 

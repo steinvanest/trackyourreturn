@@ -9,10 +9,10 @@
 // Ontwerpprincipe uit het bronbestand: dit is ALTIJD een inschatting, nooit een garantie.
 // Toon dit dus nooit als "je hoeft niet te retourneren" — alleen als voorzichtige indicatie.
 
-import type { Retailer } from "@/types/retourbeleid";
-import type { ProductCategorie } from "@/types/aankopen";
-import type { ReturnlessRefundRegels, ReturnlessRefundResultaat } from "@/types/returnlessRefund";
-import returnlessRefundRegels from "@/data/returnless-refund-regels.json";
+import type { Retailer } from "../types/retourbeleid";
+import type { ProductCategorie } from "../types/aankopen";
+import type { ReturnlessRefundRegels, ReturnlessRefundResultaat } from "../types/returnlessRefund";
+import returnlessRefundRegels from "../data/returnless-refund-regels.json";
 
 const regelset = returnlessRefundRegels as ReturnlessRefundRegels;
 
