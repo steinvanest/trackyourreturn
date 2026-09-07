@@ -1,0 +1,21 @@
+{
+  "algemene_regels": [
+    {
+      "regel_id": "lage_waarde_algemeen",
+      "max_bedrag": 15,
+      "categorieën": ["elektronica_klein", "huishoudelijk_klein", "accessoires"],
+      "waarschijnlijkheid": "middel",
+      "toelichting": "Bij aankopen onder de €15 zijn de verwerkingskosten van een retour voor de retailer vaak hoger dan het artikel waard is — sommige retailers vragen het product daarom niet terug.",
+      "bron_type": "branche_inschatting"
+    },
+    {
+      "regel_id": "kleine_elektronica_middel",
+      "max_bedrag": 35,
+      "categorieën": ["elektronica_klein"],
+      "waarschijnlijkheid": "laag",
+      "toelichting": "Bij kleine elektronica tussen de €15 en €35 komt dit soms voor, maar minder consistent dan bij goedkopere artikelen.",
+      "bron_type": "onbevestigd"
+    }
+  ],
+  "let_op": "Deze bedragen en percentages zijn een eerste inschatting op basis van algemene branchekennis, geen per-retailer geverifieerd feit. Vul aan of corrigeer met eigen ervaring — dit bestand is bedoeld om te groeien naarmate je meer weet."
+}

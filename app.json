@@ -1,0 +1,18 @@
+{
+  "expo": {
+    "name": "TrackYourReturn",
+    "slug": "trackyourreturn",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.trackyourreturn.app"
+    },
+    "android": {
+      "package": "com.trackyourreturn.app"
+    },
+    "plugins": ["expo-sqlite"]
+  }
+}

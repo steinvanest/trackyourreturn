@@ -1,0 +1,270 @@
+{
+  "schema_versie": "0.1",
+  "laatst_bijgewerkt": "2026-09-07",
+  "retailers": [
+    {
+      "retailer_id": "bol_com",
+      "retailer_naam": "bol.com",
+      "domein_type": "hybride",
+      "regels": [
+        {
+          "land": "NL",
+          "geldig_vanaf": null,
+          "geldig_tot": null,
+          "aanmeldtermijn_dagen": 30,
+          "verzendtermijn_dagen": 14,
+          "ingangsmoment": "leverdatum",
+          "kosten": "gratis",
+          "kosten_bedrag": null,
+          "bron_url": "https://www.bol.com/nl/nl/klantenservice/a/5653635052601344/retourvoorwaarden",
+          "laatst_geverifieerd": "2026-09-07"
+        }
+      ],
+      "notitie_marktplaats": "Voor externe verkopers op het bol.com-platform geldt wettelijk minimaal 14 dagen aanmelden + 14 dagen versturen; bol.com's eigen assortiment biedt de ruimere 30 dagen. Per artikel kan dit dus verschillen — controleer of het artikel 'verkocht door bol.com' of door een externe partij is.",
+      "uitzonderingen": [
+        {"categorie": "verzegelde_hygiëne", "beschrijving": "Hygiëneproducten (bv. oordopjes, ondergoed) die uit verpakking zijn gehaald", "bron_url": "https://instructie.org/bol-com-retour-instructies-stappen/"},
+        {"categorie": "maatwerk", "beschrijving": "Gepersonaliseerde producten (namen, foto's op artikelen)", "bron_url": "https://instructie.org/bol-com-retour-instructies-stappen/"},
+        {"categorie": "software_media", "beschrijving": "Verzegelde cd's, dvd's, software die al geopend is", "bron_url": "https://instructie.org/bol-com-retour-instructies-stappen/"},
+        {"categorie": "bederfelijk", "beschrijving": "Bederfelijke producten zoals voeding en bloemen", "bron_url": "https://instructie.org/bol-com-retour-instructies-stappen/"},
+        {"categorie": "digitaal", "beschrijving": "Digitale content die al is gedownload of gestreamed", "bron_url": "https://boloo.co/blog/retourbeleid-bol-com"}
+      ],
+      "returnless_refund_indicatie": {
+        "toegepast_bekend": null,
+        "prijsdrempel_schatting": null,
+        "categorieën": [],
+        "bron_type": "onbevestigd",
+        "notitie": "Nog geen publieke of interne bevestiging gevonden; hier is jouw domeinkennis nodig."
+      },
+      "eu_herroepingsknop": {
+        "status": "onbekend",
+        "gecontroleerd_op": null,
+        "notitie": "Nog niet specifiek geverifieerd op bol.com-checkout na 19 juni 2026."
+      },
+      "vertrouwen": "hoog"
+    },
+    {
+      "retailer_id": "zalando",
+      "retailer_naam": "Zalando",
+      "domein_type": "hybride",
+      "regels": [
+        {
+          "land": "NL",
+          "geldig_vanaf": "2026-01-07",
+          "geldig_tot": null,
+          "aanmeldtermijn_dagen": 30,
+          "verzendtermijn_dagen": null,
+          "ingangsmoment": "leverdatum",
+          "kosten": "gratis",
+          "kosten_bedrag": null,
+          "bron_url": "https://consumentwijzer.nl/zalando-retour/",
+          "laatst_geverifieerd": "2026-09-07"
+        },
+        {
+          "land": "NL",
+          "geldig_vanaf": null,
+          "geldig_tot": "2026-01-07",
+          "aanmeldtermijn_dagen": 100,
+          "verzendtermijn_dagen": null,
+          "ingangsmoment": "leverdatum",
+          "kosten": "gratis",
+          "kosten_bedrag": null,
+          "bron_url": "https://fitcode.nl/zalando-retour/",
+          "laatst_geverifieerd": "2026-09-07"
+        },
+        {
+          "land": "BE",
+          "geldig_vanaf": null,
+          "geldig_tot": null,
+          "aanmeldtermijn_dagen": 100,
+          "verzendtermijn_dagen": null,
+          "ingangsmoment": "leverdatum",
+          "kosten": "gratis",
+          "kosten_bedrag": null,
+          "bron_url": "https://thefashionway.nl/mijn-zalando-retour/",
+          "laatst_geverifieerd": "2026-09-07"
+        }
+      ],
+      "notitie_marktplaats": "Zalando Lounge (outlet) hanteert 31 dagen i.p.v. 30, en rekent doorgaans €3,90 retourkosten — apart bijhouden als los sub-kanaal.",
+      "uitzonderingen": [
+        {"categorie": "verzegelde_hygiëne", "beschrijving": "Cosmetica/beautyproducten waarvan hygiëneverzegeling verbroken is", "bron_url": "https://www.recharge.com/nl/nl/zalando/infos/zalando-retourbeleid-nederland"},
+        {"categorie": "verzegeld_algemeen", "beschrijving": "Verzegelde verpakkingen moeten ongeopend blijven", "bron_url": "https://thefashionway.nl/zalando-gratis-retour/"},
+        {"categorie": "gedragen", "beschrijving": "Artikel moet ongedragen zijn met originele labels nog bevestigd", "bron_url": "https://beltegoed.nl/infos/zalando-cadeaubon/zalando-retourbeleid"}
+      ],
+      "returnless_refund_indicatie": {
+        "toegepast_bekend": null,
+        "prijsdrempel_schatting": null,
+        "categorieën": [],
+        "bron_type": "onbevestigd",
+        "notitie": "Nog geen publieke of interne bevestiging gevonden."
+      },
+      "eu_herroepingsknop": {
+        "status": "onbekend",
+        "gecontroleerd_op": null,
+        "notitie": null
+      },
+      "vertrouwen": "hoog"
+    },
+    {
+      "retailer_id": "coolblue",
+      "retailer_naam": "Coolblue",
+      "domein_type": "eigen_voorraad",
+      "regels": [
+        {
+          "land": "NL",
+          "geldig_vanaf": null,
+          "geldig_tot": null,
+          "aanmeldtermijn_dagen": 30,
+          "verzendtermijn_dagen": 14,
+          "ingangsmoment": "leverdatum",
+          "kosten": "gratis",
+          "kosten_bedrag": null,
+          "bron_url": "https://www.coolblue.nl/klantenservice/retourvoorwaarden",
+          "laatst_geverifieerd": "2026-09-07"
+        }
+      ],
+      "notitie_marktplaats": "Na 30 dagen schakelt Coolblue automatisch over naar het reparatie-/garantietraject (2 jaar garantie) i.p.v. retour — dit is een ander proces dan alleen 'deadline verstreken'.",
+      "uitzonderingen": [
+        {"categorie": "software_media", "beschrijving": "Software waarvan de verzegeling is verbroken (bv. games)", "bron_url": "https://www.coolblue.be/nl/klantenservice/retouren-en-ruilen/retourneren-en-ruilen/retourneren"}
+      ],
+      "returnless_refund_indicatie": {
+        "toegepast_bekend": null,
+        "prijsdrempel_schatting": null,
+        "categorieën": [],
+        "bron_type": "onbevestigd",
+        "notitie": "Grote/zware witgoedproducten worden opgehaald i.p.v. verzonden — potentieel relevant voor kostenafweging retour vs. crediteren, nog te bevestigen."
+      },
+      "eu_herroepingsknop": {
+        "status": "onbekend",
+        "gecontroleerd_op": null,
+        "notitie": null
+      },
+      "vertrouwen": "hoog"
+    },
+    {
+      "retailer_id": "amazon_nl",
+      "retailer_naam": "Amazon.nl",
+      "domein_type": "hybride",
+      "regels": [
+        {
+          "land": "NL",
+          "geldig_vanaf": null,
+          "geldig_tot": null,
+          "aanmeldtermijn_dagen": 30,
+          "verzendtermijn_dagen": null,
+          "ingangsmoment": "leverdatum",
+          "kosten": "variabel",
+          "kosten_bedrag": null,
+          "bron_url": "https://www.amazon.nl/gp/help/customer/display.html?nodeId=GKM69DUUYKQWKWX7",
+          "laatst_geverifieerd": "2026-09-07"
+        }
+      ],
+      "notitie_marktplaats": "Geldt zowel voor Amazon zelf als voor Marketplace-verkopers op Amazon.nl, maar verkopers kunnen eigen aanvullende voorwaarden hebben — per verkoper checken blijft nodig.",
+      "uitzonderingen": [],
+      "returnless_refund_indicatie": {
+        "toegepast_bekend": true,
+        "prijsdrempel_schatting": null,
+        "categorieën": [],
+        "bron_type": "branche_inschatting",
+        "notitie": "Amazon staat in de VS bekend om returnless refunds bij lage-waarde items; onbevestigd of dit identiek wordt toegepast op Amazon.nl. Vraagt domeinkennis-verificatie."
+      },
+      "eu_herroepingsknop": {
+        "status": "onbekend",
+        "gecontroleerd_op": null,
+        "notitie": null
+      },
+      "vertrouwen": "middel"
+    },
+    {
+      "retailer_id": "wehkamp",
+      "retailer_naam": "Wehkamp",
+      "domein_type": "eigen_voorraad",
+      "regels": [
+        {
+          "land": "NL",
+          "geldig_vanaf": null,
+          "geldig_tot": null,
+          "aanmeldtermijn_dagen": 30,
+          "verzendtermijn_dagen": 14,
+          "ingangsmoment": "leverdatum",
+          "kosten": "vast_bedrag",
+          "kosten_bedrag": 2.95,
+          "bron_url": "https://www.vvet.nl/wehkamp-retour/",
+          "laatst_geverifieerd": "2026-09-07"
+        }
+      ],
+      "notitie_marktplaats": null,
+      "uitzonderingen": [
+        {"categorie": "gedragen_ondergoed", "beschrijving": "Badkleding en ondergoed mag gepast worden, maar alleen over eigen ondergoed heen", "bron_url": "https://www.wehkamp.nl/klantenservice/categorie/retourneren/vraag/wat-zijn-jullie-retourvoorwaarden/"}
+      ],
+      "returnless_refund_indicatie": {
+        "toegepast_bekend": null,
+        "prijsdrempel_schatting": null,
+        "categorieën": [],
+        "bron_type": "onbevestigd",
+        "notitie": null
+      },
+      "eu_herroepingsknop": {
+        "status": "onbekend",
+        "gecontroleerd_op": null,
+        "notitie": null
+      },
+      "vertrouwen": "hoog"
+    },
+    {
+      "retailer_id": "mediamarkt",
+      "retailer_naam": "MediaMarkt",
+      "domein_type": "hybride",
+      "regels": [
+        {
+          "land": "NL",
+          "geldig_vanaf": null,
+          "geldig_tot": null,
+          "aanmeldtermijn_dagen": 30,
+          "verzendtermijn_dagen": null,
+          "ingangsmoment": "leverdatum",
+          "kosten": "gratis",
+          "kosten_bedrag": null,
+          "bron_url": "https://www.mediamarkt.nl/nl/service/klantenservice/ruilen-retourneren",
+          "laatst_geverifieerd": "2026-09-07"
+        }
+      ],
+      "notitie_marktplaats": "Producten via externe Marketplace-verkopers hebben een eigen, afwijkend retourbeleid — apart uitzoeken indien relevant.",
+      "uitzonderingen": [],
+      "returnless_refund_indicatie": {
+        "toegepast_bekend": null,
+        "prijsdrempel_schatting": null,
+        "categorieën": [],
+        "bron_type": "onbevestigd",
+        "notitie": null
+      },
+      "eu_herroepingsknop": {
+        "status": "onbekend",
+        "gecontroleerd_op": null,
+        "notitie": null
+      },
+      "vertrouwen": "hoog"
+    },
+    {
+      "retailer_id": "h_and_m",
+      "retailer_naam": "H&M",
+      "domein_type": "eigen_voorraad",
+      "regels": [],
+      "notitie_marktplaats": "Nog niet onderzocht — placeholder.",
+      "uitzonderingen": [],
+      "returnless_refund_indicatie": {"toegepast_bekend": null, "prijsdrempel_schatting": null, "categorieën": [], "bron_type": "onbevestigd", "notitie": null},
+      "eu_herroepingsknop": {"status": "onbekend", "gecontroleerd_op": null, "notitie": null},
+      "vertrouwen": "laag"
+    },
+    {
+      "retailer_id": "ikea",
+      "retailer_naam": "IKEA",
+      "domein_type": "eigen_voorraad",
+      "regels": [],
+      "notitie_marktplaats": "Nog niet onderzocht — placeholder. Verwacht ander mechanisme: ophaalretour i.p.v. verzendretour bij grote meubels.",
+      "uitzonderingen": [],
+      "returnless_refund_indicatie": {"toegepast_bekend": null, "prijsdrempel_schatting": null, "categorieën": [], "bron_type": "onbevestigd", "notitie": null},
+      "eu_herroepingsknop": {"status": "onbekend", "gecontroleerd_op": null, "notitie": null},
+      "vertrouwen": "laag"
+    }
+  ]
+}
